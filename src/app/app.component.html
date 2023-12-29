@@ -1,0 +1,23 @@
+<mat-form-field>
+  <div>
+    <mat-toolbar>
+      <!-- Display files names -->
+      <input matInput [(ngModel)]="fileAttr" readonly name="name" />
+      <!-- Browse Button -->
+      <label for="uploadFile" class="custom-file-upload">
+        Browse File
+      </label>
+    </mat-toolbar>
+    <!-- Fetch selected file on change -->
+    <input
+      type="file"
+      #fileInput
+      id="uploadFile"
+      (change)="uploadFileEvt($event)"
+      name="uploadFile"
+      multiple="multiple"
+      accept=".pdf, image/*"
+      style="display: none;"
+    />
+  </div>
+</mat-form-field>

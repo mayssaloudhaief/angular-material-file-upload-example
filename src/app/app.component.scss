@@ -1,0 +1,39 @@
+.mat-mdc-form-field {
+    margin: 400px 0;
+    width: 500px !important;
+}
+.mat-toolbar-single-row {
+    height: auto !important;
+    background: transparent;
+}
+.mat-toolbar-single-row button {
+    width: 200px;
+}
+.mat-form-field {
+    width: 100%;
+}
+#uploadFile {
+    top: 0px;
+    left: 0px;
+    width: 100%;    
+    z-index: 9;
+    opacity: 0;
+    height: 200%;
+    cursor: pointer;
+    position: absolute;
+}
+.custom-file-upload {
+    display: inline-block;
+    padding: 8px 12px;
+    cursor: pointer;
+    background-color: #2196f3;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    font-size: 14px;
+  }
+  
+  .custom-file-upload:hover {
+    background-color: #1565c0;
+  }
+  
